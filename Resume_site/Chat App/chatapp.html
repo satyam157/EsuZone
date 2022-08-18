@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ChatPot</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- this code allow the socket io get connected with client.js -->
+        <!-- we use 'defer' here, as it make these script download and loading in background -->
+        <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/client.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">ChatPot</div>
+        </nav>
+        <div class="container">
+            <!-- <div class="message right">Esu: Satyam here</div> -->
+            <!-- <div class="message left">Pseudonymous: Amir Tis side</div> -->
+        </div>
+        <div class="send">
+            <form action="#" id="sendcontainer">
+                <input type="text" name="messageInp" class="messageInp">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+.logo{
+    display:block;
+    margin:auto;
+    width:50px;
+    height:50px;
+}
+
+.container{
+    max-width:955px;
+    background-color: aqua;
+    border:2px solid black;
+    margin:auto;
+    height:75vh;
+    padding: 33px;
+    /* if we keep it scroll there will be forced scroll, that 's why we use auto here */
+    overflow-y:auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color:antiquewhite;
+    width:24%;
+    padding:10px;
+    margin:17px 12px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+/* can also use flexbox here, but we are using float here. */
+.left{
+    float:left;
+    clear:both;
+}
+.right{
+    float:right;
+    /* clear doesnot allow any floating element in left and right of it+ */
+    clear:both;
+}
+
+#sendcontainer{
+    text-align:center;
+    max-width:985px;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+#messageInp{
+    width:92%;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
+
+.btn{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
+
+body{
+    background-image:linear-gradient(rgb(100,100,225), rgb(109,39,239));
+
+}
